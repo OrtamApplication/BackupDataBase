@@ -143,7 +143,7 @@ COPY "auth"."sso_domains" ("id", "sso_provider_id", "domain", "created_at", "upd
 --
 
 COPY "storage"."buckets" ("id", "name", "owner", "created_at", "updated_at", "public", "avif_autodetection", "file_size_limit", "allowed_mime_types", "owner_id") FROM stdin;
-ortam-images	ortam-images	\N	2025-04-29 09:26:55.334952+00	2025-04-29 09:26:55.334952+00	t	f	\N	\N	\N
+ortam-images	ortam-images	\N	2025-04-29 21:56:09.063555+00	2025-04-29 21:56:09.063555+00	t	f	\N	\N	\N
 \.
 
 
@@ -152,9 +152,8 @@ ortam-images	ortam-images	\N	2025-04-29 09:26:55.334952+00	2025-04-29 09:26:55.3
 --
 
 COPY "storage"."objects" ("id", "bucket_id", "name", "owner", "created_at", "updated_at", "last_accessed_at", "metadata", "version", "owner_id", "user_metadata") FROM stdin;
-0eceb328-b79f-4b41-898c-afc1abc9a25a	ortam-images	upload_images/.emptyFolderPlaceholder	\N	2025-04-29 09:27:46.09469+00	2025-04-29 09:27:56.841501+00	2025-04-29 09:27:46.09469+00	{"eTag": "\\"d41d8cd98f00b204e9800998ecf8427e\\"", "size": 0, "mimetype": "application/octet-stream", "cacheControl": "max-age=3600", "lastModified": "2025-04-29T09:27:57.000Z", "contentLength": 0, "httpStatusCode": 200}	83e91f80-e6c5-422b-990b-afa8198fd7d7	\N	{}
-b63f0f34-8e43-427b-9b6b-9b78836a51b4	ortam-images	Screenshot 2024-02-04 120721.png	\N	2025-04-29 09:28:10.227134+00	2025-04-29 09:28:10.227134+00	2025-04-29 09:28:10.227134+00	{"eTag": "\\"2bb0bc82200cd796f3fdd199f0d470af-1\\"", "size": 146112, "mimetype": "image/png", "cacheControl": "max-age=3600", "lastModified": "2025-04-29T09:28:10.000Z", "contentLength": 146112, "httpStatusCode": 200}	e56a352e-7ce4-461b-ad4f-3e5eaaf5a8aa	\N	\N
-97bc5a69-9f2c-4bf5-9713-297244f3913d	ortam-images	upload_images/example.png	\N	2025-04-29 11:17:48.140295+00	2025-04-29 11:17:48.140295+00	2025-04-29 11:17:48.140295+00	{"eTag": "\\"88a642b6b2af2a7b2808903e1f1aeac6\\"", "size": 38075, "mimetype": "auto", "cacheControl": "no-cache", "lastModified": "2025-04-29T11:17:49.000Z", "contentLength": 38075, "httpStatusCode": 200}	f92fbbe0-9384-4615-8eea-f9b217c14ab6	\N	{}
+d457da09-48ad-4e0d-bb3f-a9225f0b0511	ortam-images	upload_images/.emptyFolderPlaceholder	\N	2025-04-29 22:02:06.573274+00	2025-04-29 22:02:06.573274+00	2025-04-29 22:02:06.573274+00	{"eTag": "\\"d41d8cd98f00b204e9800998ecf8427e\\"", "size": 0, "mimetype": "application/octet-stream", "cacheControl": "max-age=3600", "lastModified": "2025-04-29T22:02:07.000Z", "contentLength": 0, "httpStatusCode": 200}	7dcf2920-8fa8-4696-b98f-a4bd076449a2	\N	{}
+70a0cc46-2a05-4ec9-b31e-f8569e73b59d	ortam-images	upload_images/example.png	\N	2025-04-29 22:51:07.005904+00	2025-04-29 22:51:07.005904+00	2025-04-29 22:51:07.005904+00	{"eTag": "\\"88a642b6b2af2a7b2808903e1f1aeac6\\"", "size": 38075, "mimetype": "auto", "cacheControl": "no-cache", "lastModified": "2025-04-29T22:51:07.000Z", "contentLength": 38075, "httpStatusCode": 200}	6ceaa19a-16a1-4121-8149-3c5ec13221ee	\N	{}
 \.
 
 
