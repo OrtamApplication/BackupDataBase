@@ -176,14 +176,6 @@ COPY "storage"."s3_multipart_uploads_parts" ("id", "upload_id", "size", "part_nu
 
 
 --
--- Data for Name: secrets; Type: TABLE DATA; Schema: vault; Owner: supabase_admin
---
-
-COPY "vault"."secrets" ("id", "name", "description", "secret", "key_id", "nonce", "created_at", "updated_at") FROM stdin;
-\.
-
-
---
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
