@@ -1,4 +1,6 @@
 
+\restrict pin8F5fkxBxmYVU0PHrLkk2mBRn4VPHeIXk6WiWQrDTwLQrSmoMjzOmVYwZB9Hk
+
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -312,5 +314,7 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "postgres" IN SCHEMA "public" GRANT SELECT,INS
 
 
 
+
+\unrestrict pin8F5fkxBxmYVU0PHrLkk2mBRn4VPHeIXk6WiWQrDTwLQrSmoMjzOmVYwZB9Hk
 
 RESET ALL;
